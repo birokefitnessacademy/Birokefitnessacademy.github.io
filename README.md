@@ -1,1 +1,1 @@
-# Birokefitnessacademy.github.io
+# Birokefitnessacademy.io
