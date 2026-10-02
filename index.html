@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ਬੀਰੋਕੇ ਫਿੱਟਨੈੱਸ ਅਕੈਡਮੀ, ਪਿੰਡ ਬੀਰੋਕੇ ਕਲਾਂ: ਪੰਜਾਬ ਪੁਲਿਸ ਤੇ ਇੰਡੀਅਨ ਆਰਮੀ ਭਰਤੀ ਦੀ ਮੁਫ਼ਤ ਦੌੜ ਤੇ ਫਿਜ਼ੀਕਲ ਤਿਆਰੀ। ਕੋਚ ਸੁਰਿੰਦਰ ਸਿੰਘ ਸੋਨੀ।">
+<title>ਬੀਰੋਕੇ ਫਿੱਟਨੈੱਸ ਅਕੈਡਮੀ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;700;900&display=swap">
+<style>
+:root{color-scheme:light;--brand:#ff4d00;--sun:#ffd400;--sky:#00b8ff;--ink:#2b2d6e;--mute:#6b6fa8;--bg:#fffdf5;--card:#fff;--line:#ffe27a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 52px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans Gurmukhi',system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:#fff;border-bottom:4px solid var(--brand);z-index:5}
+nav .wrap{display:flex;align-items:center;gap:18px;padding:11px 18px;overflow-x:auto;white-space:nowrap}
+nav b{color:var(--brand);font-weight:900;font-size:16px;margin-right:auto}
+nav a{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px}
+.hero{background:var(--brand);color:#fff;padding:44px 0 48px;border-bottom:10px solid var(--sun)}
+.hero .tag{display:inline-block;background:var(--sun);color:var(--ink);font-weight:900;font-size:13px;padding:5px 14px;letter-spacing:.5px;margin-bottom:16px}
+.hero h1{font-size:clamp(34px,10vw,58px);line-height:1.15;margin:0 0 12px;font-weight:900}
+.hero p{font-size:clamp(17px,4.5vw,21px);font-weight:700;margin:0 0 24px;color:#fff3c4}
+.btn{display:inline-block;padding:13px 24px;text-decoration:none;font-weight:900;margin:0 8px 8px 0;border-radius:6px}
+.btn.p{background:var(--sun);color:var(--ink)}
+.btn.s{background:#fff;color:var(--brand)}
+section{padding:34px 0 8px}
+h2{font-size:28px;font-weight:900;margin:0 0 16px;color:var(--ink)}
+h2::after{content:"";display:block;width:56px;height:6px;background:var(--brand);margin-top:6px}
+.card{background:var(--card);border:2px solid var(--line);border-top:6px solid var(--brand);border-radius:6px;padding:18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.grid .card:nth-child(2){border-top-color:var(--sky)}
+.grid .card:nth-child(3){border-top-color:var(--sun)}
+.card b{font-size:18px;font-weight:900}
+.cap{font-size:15px;color:var(--mute);margin:4px 0 0}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px;text-align:center}
+.stats div{background:#fff7d1;padding:12px;border-radius:6px}
+.stats b{display:block;font-size:34px;color:var(--brand);font-weight:900;line-height:1.2}
+.stats small{font-weight:700;color:var(--ink)}
+.free{margin:20px 0 12px;background:var(--sun);color:var(--ink);text-align:center;padding:20px 12px;border-radius:6px;font-weight:900;font-size:20px;border-bottom:8px solid var(--brand)}
+.free span{display:block;font-size:clamp(38px,12vw,64px);line-height:1.2;color:var(--brand)}
+.time{background:#fff;border:3px solid var(--sky);border-radius:6px;padding:14px 10px;text-align:center;font-size:clamp(20px,6vw,28px);font-weight:900}
+.contact .row{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.contact .row:last-child{border:0}
+.contact .row span{min-width:84px;font-weight:900;color:var(--brand)}
+.contact a{color:var(--ink);font-weight:700;text-decoration:none;word-break:break-word}
+.motto{margin-top:14px;background:var(--sun);color:var(--ink);font-weight:900;font-size:18px;padding:12px 14px;border-left:8px solid var(--brand);border-radius:4px}
+.list{margin:8px 0 0;padding-left:20px}.list li{margin:3px 0;font-weight:700}
+.motiv{display:grid;gap:14px}
+.quote{background:var(--brand);color:#fff;font-weight:900;font-size:clamp(22px,6.5vw,30px);line-height:1.3;padding:22px 18px;border-radius:6px;border-bottom:8px solid var(--sun)}
+.quote small{display:block;font-size:.7em;color:#fff3c4;margin-top:6px;font-weight:700}
+.quote.q2{background:var(--sky);border-bottom-color:var(--brand)}
+.coach{margin-top:16px;background:#fff7d1;border-left:8px solid var(--sky);padding:12px 14px;border-radius:4px}.coach small{display:block;font-weight:900;color:var(--brand)}.coach b{font-size:20px;font-weight:900;line-height:1.4}
+footer{margin-top:36px;background:var(--brand);color:#fff;text-align:center;font-weight:700;padding:18px 10px 26px;border-top:10px solid var(--sun)}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>ਬੀਰੋਕੇ ਫਿੱਟਨੈੱਸ ਅਕੈਡਮੀ</b><a href="#about">ਸਾਡੇ ਬਾਰੇ</a><a href="#programs">ਪ੍ਰੋਗਰਾਮ</a><a href="#events">ਭਰਤੀ ਟੈਸਟ</a><a href="#contact">ਸੰਪਰਕ</a></div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="tag">ਪੰਜਾਬ ਪੁਲਿਸ ਤੇ ਇੰਡੀਅਨ ਆਰਮੀ ਭਰਤੀ ਦੀ ਮੁਫ਼ਤ ਤਿਆਰੀ</div>
+  <h1>ਬੀਰੋਕੇ ਫਿੱਟਨੈੱਸ ਅਕੈਡਮੀ</h1>
+  <p>ਫਿੱਟ ਬਣੋ, ਵਰਦੀ ਪਾਓ।</p>
+  <a class="btn p" href="#contact">ਹੁਣੇ ਜੁੜੋ</a><a class="btn s" href="#contact">ਵਟਸਐਪ / ਇੰਸਟਾਗ੍ਰਾਮ</a>
+</div></header>
+
+<main class="wrap">
+<section id="about">
+  <h2>ਸਾਡੇ ਬਾਰੇ</h2>
+  <div class="card">
+    <p style="margin:0">ਸਾਡੀ ਅਕੈਡਮੀ ਵਿੱਚ ਪੰਜਾਬ ਪੁਲਿਸ ਤੇ ਇੰਡੀਅਨ ਆਰਮੀ ਦੀ ਭਰਤੀ ਲਈ ਮੁਫ਼ਤ ਤਿਆਰੀ ਕਰਵਾਈ ਜਾਂਦੀ ਹੈ। ਸਹੀ ਵਾਰਮ-ਅੱਪ, ਦੌੜ ਦੀ ਤਕਨੀਕ, ਸਟੈਮਿਨਾ ਤੇ ਤਾਕਤ ਦੀ ਸਿਖਲਾਈ ਨਾਲ ਅਸੀਂ ਨੌਜਵਾਨਾਂ ਨੂੰ ਵਰਦੀ ਦੇ ਸੁਪਨੇ ਲਈ ਤਿਆਰ ਕਰਦੇ ਹਾਂ।</p>
+    <div class="coach"><small>ਕੋਚ</small><b>ਐਕਸ ਸਰਵਿਸਮੈਨ ਸੁਰਿੰਦਰ ਸਿੰਘ ਸੋਨੀ (ਫੌਜੀ)</b></div>
+    <div class="motto">ਮੋਟੋ: ਫਿੱਟਨੈੱਸ ਹੀ ਵਰਦੀ ਦੀ ਪਹਿਲੀ ਪੌੜੀ ਹੈ।</div>
+  </div>
+</section>
+
+<section id="programs">
+  <h2>ਪ੍ਰੋਗਰਾਮ</h2>
+  <div class="grid">
+    <div class="card"><b>ਪੰਜਾਬ ਪੁਲਿਸ ਭਰਤੀ</b><p class="cap">ਦੌੜ, ਛਾਲਾਂ ਤੇ ਫਿਜ਼ੀਕਲ ਟੈਸਟ ਦੀ ਤਿਆਰੀ।</p></div>
+    <div class="card"><b>ਇੰਡੀਅਨ ਆਰਮੀ ਭਰਤੀ</b><p class="cap">ਦੌੜ, ਬੀਮ, ਖਾਈ ਤੇ ਬੈਲੈਂਸ ਦੀ ਤਿਆਰੀ।</p></div>
+    <div class="card"><b>ਨਵੇਂ ਖਿਡਾਰੀ</b><p class="cap">ਬੁਨਿਆਦੀ ਫਿਟਨੈੱਸ ਤੇ ਸਟੈਮਿਨਾ।</p></div>
+  </div>
+  <div class="free">ਫੀਸ<span>ਬਿਲਕੁਲ ਮੁਫ਼ਤ!</span></div>
+  <div class="time">ਸਮਾਂ: [ਸਵੇਰੇ 5:30 ਤੋਂ 7:30]</div>
+</section>
+
+<section id="events">
+  <h2>ਭਰਤੀ ਟੈਸਟ ਬਾਰੇ ਜਾਣਕਾਰੀ</h2>
+  <div class="grid">
+    <div class="card"><b>ਪੰਜਾਬ ਪੁਲਿਸ</b>
+      <ul class="list"><li>ਦੌੜ</li><li>ਲੰਬੀ ਛਾਲ</li><li>ਉੱਚੀ ਛਾਲ</li></ul></div>
+    <div class="card"><b>ਇੰਡੀਅਨ ਆਰਮੀ</b>
+      <ul class="list"><li>1.6 ਕਿਲੋਮੀਟਰ ਦੌੜ</li><li>ਬੀਮ (ਪੁੱਲ-ਅੱਪ)</li><li>9 ਫੁੱਟ ਖਾਈ ਟੱਪਣੀ</li><li>ਜ਼ਿਗ-ਜ਼ੈਗ ਬੈਲੈਂਸ</li></ul></div>
+  </div>
+  <p class="cap">ਨੋਟ: ਭਰਤੀ ਦੇ ਨਿਯਮ ਤੇ ਸਮਾਂ-ਸੀਮਾ ਹਰ ਵਾਰ ਬਦਲ ਸਕਦੇ ਹਨ। ਤਾਜ਼ਾ ਜਾਣਕਾਰੀ ਲਈ ਅਧਿਕਾਰਤ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖੋ।</p>
+</section>
+
+<section class="motiv">
+  <div class="quote">ਮਿਹਨਤ ਦਾ ਕੋਈ ਬਦਲ ਨਹੀਂ।<small>ਅੱਜ ਦਾ ਪਸੀਨਾ, ਕੱਲ੍ਹ ਦੀ ਵਰਦੀ।</small></div>
+  <div class="quote q2">ਹਾਰ ਉਹ ਨਹੀਂ ਜੋ ਡਿੱਗ ਪਿਆ,<small>ਹਾਰ ਉਹ ਹੈ ਜੋ ਦੌੜਨਾ ਛੱਡ ਗਿਆ।</small></div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>ਸੰਪਰਕ ਕਰੋ</h2>
+  <div class="card">
+    <div class="row"><span>ਪਤਾ</span><div>ਸੀਨੀਅਰ ਸੈਕੰਡਰੀ ਸਕੂਲ ਗਰਾਊਂਡ, ਪਿੰਡ ਬੀਰੋਕੇ ਕਲਾਂ</div></div>
+    <div class="row"><span>ਫੋਨ</span><a href="tel:+91soon ">+91 will be added soon</a></div>
+    <div class="row"><span>ਵਟਸਐਪ</span><a href="https://wa.me/91 add soon">ਵਟਸਐਪ ਕਰੋ</a></div>
+    <div class="row"><span>ਇੰਸਟਾਗ੍ਰਾਮ</span><a href="https://www.instagram.com/biroke_fitness_academy?stkn=ZzJwbDk2N2ozcGVi">@biroke_fitness_academy</a></div>
+    <div class="row"><span>ਈਮੇਲ</span><a href="mailto:will be add soon ">will be add soon</a></div>
+  </div>
+</section>
+</main>
+<footer>© ਬੀਰੋਕੇ ਫਿੱਟਨੈੱਸ ਅਕੈਡਮੀ</footer>
+</body>
+</html>html>
